@@ -1,13 +1,10 @@
-@font-face {
-    font-family: 'raleway';
-    src: url('src/font/Raleway/Raleway-Italic-VariableFont_wght.ttf');
-    src: url('src/font/Raleway/Raleway-VariableFont_wght.ttf');
-    font-size: 1rem;
-    font-weight: bold;
-}
-
-
 body{
-    background-color: #F2F2F2;
     font-family: Raleway, Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    background-color: #F2F2F2;
 }
+
+header {
+    width: 98%;
+    margin: auto;
+  }

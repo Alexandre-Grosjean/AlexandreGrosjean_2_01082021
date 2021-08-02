@@ -3,11 +3,9 @@
 
 <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width">
     <title>Reservia</title>
     <!--stylesheet-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="style.css">
 </head>
 
@@ -16,24 +14,28 @@
     <!--navigation bar -->
     <header>
         <nav class="navbar">
-            <img src="src/logo/Reservia.svg" alt="logo" class="logo">
+            <a href="index.html">
+                <img src="src/logo/Reservia.svg" alt="logo" id="logo">
+            </a>
+            <div class="navigationbar-link">
+                <a href="navbar-link">Hébergements</a>
+                <a href="navbar-link">Activités</a>
+            </div>
+            <div class="signUP">
+                <a href="https://www.google.com/">S'inscrire</a>
+            </div>
         </nav>
-        <div>
-            <p><a href="navbar-link">Hébergements</a></p>
-            <p></p><a href="navbar-link">Activités</a></p>
-        </div>
     </header>
     <!-- Search -->
     <main>
         <div>
             <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
             <p class="subtitle">En plein centre ville ou en pleine nature</p>
-        
-
+            <!--research zone-->
             <input type="text" placeholder="Marseille, France" class="research">
             <button class="button-research" id="button-research">Rechercher</button>
         </div>
     </main>
-</body>
+    </body>
 
-</html>
+    </html>
