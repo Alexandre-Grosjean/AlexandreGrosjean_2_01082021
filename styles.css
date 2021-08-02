@@ -6,11 +6,53 @@ body{
 
 header {
     width: 98%;
+    max-width: 1440px;
     margin: auto;
+  }
+
+.navbar {
     display: grid;
-    grid-template-columns: 2fr 3fr 3fr 2fr;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr 5fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "logo . accomodation activities sign-up";
 }
 
 a{
     text-decoration: none;
+}
+
+h1 {
+    font-size: 32px;
+    margin: 10px 0;
+}
+
+.subtitle {
+    margin: 6px 0px;
+}
+.research{
+    padding: 0 0 0 20px;
+    height: 50px;
+    width: 220px;
+    border: none;
+    border-top: solid 1px #F2F2F2;
+    border-bottom: solid 1px #F2F2F2;
+}
+
+.research::placeholder {
+    color: rgb(170, 170, 170);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.button-research {
+    border: none;
+    border-radius: 0 14px 14px 0;
+    background-color: #0065fc;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 17px;
+    cursor: pointer;
 }
