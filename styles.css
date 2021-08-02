@@ -7,4 +7,6 @@ body{
 header {
     width: 98%;
     margin: auto;
-  }
+    display: grid;
+    grid-template-columns: 2fr 3fr 3fr 2fr;
+}
