@@ -1,7 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-
-body{
+body {
     font-family: 'Raleway', Verdana, Geneva, Tahoma, sans-serif;
     margin: auto;
     background-color: #FFFFFF;
@@ -29,17 +26,17 @@ a{
     grid-template-areas: "logo . accomodation activities sign-up";
 }
 
-.navbar a{
+.navbar a {
     padding: 25px;
 }
 
-.navbar-link{
+.navbar-link {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-#logo{
+#logo {
     grid-area: logo;
     display: flex;
     justify-items: left;
@@ -53,7 +50,7 @@ a{
     grid-area: activities;
 }
 
-#sign-UP{
+#sign-UP {
     grid-area: sign-up;
     display: flex;
     justify-content: center;
@@ -63,7 +60,7 @@ a{
 
 /*main*/
 
-main{
+main {
     margin-left: 5%;
     margin-right: 5%;
 }
@@ -77,7 +74,7 @@ h1 {
     margin: 6px 0px;
 }
 
-.search-box{
+.search-box {
     display: flex;
     justify-content: center left;
     margin-top: 1%;
@@ -93,12 +90,12 @@ h1 {
     border-radius: 14px 0 0 14px;
 }
 
-#location{
+#location {
     width: 17px;
     height: 17px;
 }
 
-.research{
+.research {
     padding: 0 0 0 20px;
     height: 50px;
     width: 220px;
