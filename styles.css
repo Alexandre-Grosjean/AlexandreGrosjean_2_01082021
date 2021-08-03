@@ -3,14 +3,21 @@
 
 body{
     font-family: 'Raleway', Verdana, Geneva, Tahoma, sans-serif;
-    margin: 0;
-    background-color: #F2F2F2;
+    margin: auto;
+    background-color: #FFFFFF;
 }
+
+a{
+    text-decoration: none;
+}
+
  /*header*/
-header {
+
+ header {
     width: 98%;
     max-width: 1440px;
     margin: auto;
+    color: #0065FC;
   }
 
 .navbar {
@@ -22,6 +29,10 @@ header {
     grid-template-areas: "logo . accomodation activities sign-up";
 }
 
+.navbar a{
+    padding: 25px;
+}
+
 .navbar-link{
     display: flex;
     justify-content: center;
@@ -30,6 +41,8 @@ header {
 
 #logo{
     grid-area: logo;
+    display: flex;
+    justify-items: left;
 }
 
 .navbar #navbar-link-accomodation {
@@ -48,13 +61,12 @@ header {
     font-weight: 600;
 }
 
-a{
-    text-decoration: none;
-}
-
-
-
 /*main*/
+
+main{
+    margin-left: 5%;
+    margin-right: 5%;
+}
 
 h1 {
     font-size: 32px;
@@ -64,6 +76,28 @@ h1 {
 .subtitle {
     margin: 6px 0px;
 }
+
+.search-box{
+    display: flex;
+    justify-content: center left;
+    margin-top: 1%;
+}
+
+.location {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55px;
+    height: auto;
+    background-color: #F2F2F2;
+    border-radius: 14px 0 0 14px;
+}
+
+#location{
+    width: 17px;
+    height: 17px;
+}
+
 .research{
     padding: 0 0 0 20px;
     height: 50px;
@@ -87,7 +121,6 @@ h1 {
     font-weight: 700;
     font-size: 16px;
     padding: 17px;
-    cursor: pointer;
 }
 
 /*filter*/
