@@ -22,9 +22,37 @@ header {
     grid-template-areas: "logo . accomodation activities sign-up";
 }
 
+.navbar-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo{
+    grid-area: logo;
+}
+
+.navbar #navbar-link-accomodation {
+    grid-area: accomodation;
+}
+
+.navbar #navbar-link-activities {
+    grid-area: activities;
+}
+
+#sign-UP{
+    grid-area: sign-up;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+}
+
 a{
     text-decoration: none;
 }
+
+
 
 /*main*/
 
