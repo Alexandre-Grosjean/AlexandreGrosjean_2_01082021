@@ -1,5 +1,5 @@
 body {
-    font-family: 'Raleway', Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Raleway', sans-serif;
     margin: auto;
     background-color: #FFFFFF;
 }
@@ -34,6 +34,7 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-weight: 500;
 }
 
 #logo {
@@ -44,7 +45,7 @@ a{
 
 .navbar #navbar-link-accomodation {
     grid-area: accomodation;
-    border-top: 3px blue solid;
+    border-top: 3px #0065FC solid;
 }
 
 .navbar #navbar-link-activities {
@@ -141,7 +142,6 @@ h1 {
 
 .choice {
     font-weight: bolder;
-    align-content: center;
     border: 2px #F2F2F2 solid;
     border-radius: 50px 50px 50px 50px;
 }
@@ -149,15 +149,20 @@ h1 {
 .choice img {
     float: left;
     padding: 15px;
-    margin-right: 25px;
+    margin-right: 15px;
     width: 22px;
     height: 22px;
-    border: 4px #DEEBFF2F2 solid;
+    border: 4px #DEEBFF solid;
     border-radius: 50px 50px 50px 50px;
     background-color: #DEEBFF;
 }
 
+.choice p {
+    padding-top: 5px;
+}
+
 .info {
+    margin-top: 20px;
     display: flex;
     align-items: center;
 }
