@@ -73,9 +73,6 @@ em {
 
 /*title*/
 
-main {
-    width: 100%;
-}
 
 .search-section {
     margin-left: 3%;
@@ -201,13 +198,14 @@ h1 {
 
 .popular {
     display: flex;
+    justify-content: left;
 }
 
 .popular-marseille {
     border: 1px #F2F2F2 solid;
     border-radius: 20px 20px 20px 20px;
     background-color: #F2F2F2;
-    width: 60%;
+    width: 70%;
     margin-left: 3%;
     margin-right: 3%;
 }
@@ -318,14 +316,101 @@ h1 {
 }
 
 .more {
-    margin-left: 40px;
+    margin: 40px;
     font-weight: bolder;
     font-size: 18px;
 }
 
+/*aside*/
+
 .most-popular {
-    float: right;
-    border: 2px black solid;
+    border: 1px #F2F2F2 solid;
+    border-radius: 20px 20px 20px 20px;
+    background-color: #F2F2F2;
     width: 30%;
+    margin-left: 0%;
+    margin-right: 3%;
 }
 
+.title-chart {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.most-popular-title {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 40px;
+    font-weight: bolder;
+    font-size: 26px;
+}
+
+.chart-ico{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-right: 40px;
+    padding-top: 1%;
+}
+
+#chart-line-svg {
+    width: 25px;
+    height: 25px;
+}
+
+.most-popular-grid {
+    display: grid;
+    justify-content: space-evenly;
+    align-items: center;
+    grid-template-columns: 350px;
+    grid-template-rows: 145px 145px 145px;
+    grid-row-gap: 3%;
+    grid-column-gap: 2%;
+}
+
+.most-popular-subtitle {
+    margin-top: 0px;
+}
+
+.most-popular-image {
+    display: block;
+    align-items: left;
+    padding: 5px;
+    width: 135px;
+    height: 135px;
+    border-radius: 19px 0px 0 19px;
+    object-fit: cover;
+}
+
+.popular-star {
+        display: flex;
+        margin-left: 0px;
+        margin-top: 37px;
+}
+.most-popular-1 {
+    display: flex;
+    grid-row: 1;
+    border: 1px white solid;
+    border-radius: 20px 20px 20px 20px;
+    background-color: white;
+    box-shadow: 0px 0px 3px 2px rgb(224, 224, 224);
+}
+
+.most-popular-2 {
+    display: flex;
+    grid-row: 2;
+    border: 1px white solid;
+    border-radius: 20px 20px 20px 20px;
+    background-color: white;
+    box-shadow: 0px 0px 3px 2px rgb(224, 224, 224);
+}
+
+.most-popular-3 {
+    display: flex;
+    grid-row: 3;
+    border: 1px white solid;
+    border-radius: 20px 20px 20px 20px;
+    background-color: white;
+    box-shadow: 0px 0px 3px 2px rgb(224, 224, 224);
+}
