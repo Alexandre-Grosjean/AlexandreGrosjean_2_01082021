@@ -8,6 +8,10 @@ a{
     text-decoration: none;
 }
 
+a:visited {
+    color: inherit;
+}
+
 em {
     font-style: normal;
     font-weight: 600;
@@ -57,11 +61,19 @@ em {
 .navbar #navbar-link-accomodation {
     grid-area: accomodation;
     border-top: 3px #0065FC solid;
+    color: #0065FC;
 }
 
 .navbar #navbar-link-activities {
     grid-area: activities;
+    color: black;
 }
+
+.navbar #navbar-link-activities:hover {
+    border-top: 3px #0065FC solid;
+    color:#0065FC;
+}
+
 
 #sign-UP {
     grid-area: sign-up;
@@ -69,6 +81,7 @@ em {
     justify-content: center;
     align-items: center;
     font-weight: 600;
+    color: #0065FC;
 }
 
 /*title*/
@@ -159,6 +172,10 @@ h1 {
     font-weight: bolder;
     border: 2px #F2F2F2 solid;
     border-radius: 50px 50px 50px 50px;
+}
+
+.choice:hover {
+    background-color: #DEEBFF;
 }
 
 .choice img {
@@ -520,6 +537,7 @@ footer{
 
 .footer {
     margin-top: 15px;
+    margin-bottom: 25px;
     margin-left: 3%;
     width: 90%;
     height: 200px;
