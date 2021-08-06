@@ -6,22 +6,32 @@
     <meta name="viewport" content="width=device-width">
     <title>Reservia</title>
 
-<!--stylesheet-->
+<!-- stylesheet -->
 
+    <!-- font style -->
     <link rel="preconnect" 
             href="https://fonts.googleapis.com">
     <link rel="preconnect" 
             href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" 
             rel="stylesheet"> 
+
+    <!-- design & responsive -->
+
     <link type="text/css" 
             rel="stylesheet" 
             href="styles.css">
+    <link rel="stylesheet" 
+            media="screen and (max-width: 1280px)"
+            href="tablet-resolution.css">
+    <link rel="stylesheet" 
+            media="screen and (max-width: 1050px)"
+            href="phone-resolution.css"> 
 </head>
 
 <body>
 
-<!--navigation bar -->
+<!-- navigation bar -->
 
     <header>
         <nav class="navbar">
@@ -56,6 +66,9 @@
                 </div>
                 <input type="text" placeholder="Marseille, France" class="research">
                 <button class="button-research" id="button-research">Rechercher</button>
+                <button class="button-research-small" id="button-research-small">
+                    <img src="src/font/petit-logo/svgs/solid/search.svg" alt="search" id="search">
+                </button>
             </div>
         </section>
 
