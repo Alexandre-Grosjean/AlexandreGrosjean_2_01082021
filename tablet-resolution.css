@@ -159,6 +159,46 @@ body {
     object-fit: cover;
 }
 
+.activities-container {
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 200px 200px;
+    grid-column-gap: 3%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+
+.activities-container-1-1-1 {
+    grid-column-start: 1;
+    grid-row-start: 1;
+}
+
+.activities-container-1-1-2 {
+    grid-column-start: 2;
+    grid-row-start: 1;
+}
+
+.activities-container-2-2-1 {
+    grid-column-start: 3;
+    grid-row-start: 1;
+}
+
+.activities-container-2-2-2 {
+    grid-column-start: 1;
+    grid-row-start: 2;
+}
+
+.activities-container-3-3-1 {
+    grid-column-start: 2;
+    grid-row-start: 2;
+}
+
+.activities-container-3-3-2 {
+    grid-column-start: 3;
+    grid-row-start: 2;
+
 
 /* footer */
 
