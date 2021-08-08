@@ -172,17 +172,48 @@ h1 {
     font-size: 24px;
 }
 
-.choice {
+.choice-1 {
     font-weight: bolder;
     border: 2px #F2F2F2 solid;
     border-radius: 50px 50px 50px 50px;
 }
 
-.choice:hover {
+.choice-2 {
+    font-weight: bolder;
+    border: 2px #F2F2F2 solid;
+    border-radius: 50px 50px 50px 50px;
+}
+
+.choice-3 {
+    font-weight: bolder;
+    border: 2px #F2F2F2 solid;
+    border-radius: 50px 50px 50px 50px;
+}
+
+.choice-4 {
+    font-weight: bolder;
+    border: 2px #F2F2F2 solid;
+    border-radius: 50px 50px 50px 50px;
+}
+
+.choice-1:hover {
     background-color: #DEEBFF;
 }
 
-.choice img {
+.choice-2:hover {
+    background-color: #DEEBFF;
+}
+
+.choice-3:hover {
+    background-color: #DEEBFF;
+}
+
+.choice-4:hover {
+    background-color: #DEEBFF;
+}
+
+
+#family {
     float: left;
     padding: 15px;
     margin-right: 15px;
@@ -193,7 +224,40 @@ h1 {
     background-color: #DEEBFF;
 }
 
-.choice p {
+#money {
+    float: left;
+    padding: 15px;
+    margin-right: 15px;
+    width: 22px;
+    height: 22px;
+    border: 4px #DEEBFF solid;
+    border-radius: 50px 50px 50px 50px;
+    background-color: #DEEBFF;
+}
+
+#heart {
+    float: left;
+    padding: 15px;
+    margin-right: 15px;
+    width: 22px;
+    height: 22px;
+    border: 4px #DEEBFF solid;
+    border-radius: 50px 50px 50px 50px;
+    background-color: #DEEBFF;
+}
+
+#dog {
+    float: left;
+    padding: 15px;
+    margin-right: 15px;
+    width: 22px;
+    height: 22px;
+    border: 4px #DEEBFF solid;
+    border-radius: 50px 50px 50px 50px;
+    background-color: #DEEBFF;
+}
+
+.filter-choice {
     padding-top: 5px;
 }
 
