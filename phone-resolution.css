@@ -1,0 +1,255 @@
+/* header*/
+
+.navbar {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: none;
+}
+
+#logo {
+    grid-area: unset;
+    grid-column-start: 1;
+    grid-row-start: 1;
+    display: flex;
+    justify-items: center;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.navbar #navbar-link-accomodation {
+    grid-area: unset;
+    grid-column-start: 1;
+    grid-row-start: 2;
+    border-top: 3px #0065FC solid;
+    color: #0065FC;
+}
+
+.navbar #navbar-link-accomodation {
+    grid-area: unset;
+    border-top: none;
+    border-bottom: 3px #0065FC solid;
+}
+
+.navbar #navbar-link-activities {
+    grid-area: unset;
+    grid-column-start: 2;
+    grid-row-start: 2;
+    color: black;
+}
+
+.navbar #navbar-link-activities {
+    grid-area: unset;
+    border-top: none;
+    border-bottom: 3px #F2F2F2 solid;
+}
+
+.navbar #navbar-link-activities:hover {
+    border-top: none;
+    border-bottom: 3px #0065FC solid;
+    
+}
+
+#sign-UP {
+    grid-area: unset;
+    grid-column-start: 2;
+    grid-row-start: 1;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    font-weight: 600;
+    color: #0065FC;
+    padding-right: 15%;
+}
+
+/* research */
+
+.button-research-small {
+    display: unset;
+    border: none;
+    border-radius: 14px 14px 14px 14px;
+    background-color: #0065fc;
+}
+
+.research {
+    padding-left: 15px;
+    margin-right: -8px;
+    height: 50px;
+    width: 220px;
+    border: none;
+    border-top: solid 1px #F2F2F2;
+    border-bottom: solid 1px #F2F2F2;
+}
+
+/* filter */
+
+.filter {
+    display: grid;
+    justify-content: left;
+    align-items: center;
+    grid-template-columns: 200px 250px;
+    grid-template-rows: 60px 60px 60px 60px 60px;
+    grid-gap: 15px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.filters-title {
+    grid-column-start: 1;
+    grid-row-start: 1;
+}
+
+.choice-1 {
+    grid-column-start: 1;
+    grid-row-start: 2;
+    width: 200px;
+}
+
+.choice-2 {
+    grid-column-start: 2;
+    grid-row-start: 2;
+    width: 170px;
+}
+
+.choice-3 {
+    grid-column-start: 1;
+    grid-row-start: 3;
+    width: 190px;
+}
+
+.choice-4 {
+    grid-column-start: 1;
+    grid-row-start: 4;
+    width: 250px;
+}
+
+.info {
+    grid-row-start: 5;
+}
+
+#info {
+    width: 11px;
+    height: 11px;
+    float: left;
+    padding: 7px 8px 7px 8px;
+    margin-right: 10px;
+    border: solid 1px #D9D9D9;
+    border-radius: 55% 55% 55% 55%;
+    margin-bottom: 20px;
+}
+
+br {
+    display: unset;
+}
+
+/* accomodation */
+
+.popular-marseille {
+    display: flex;
+    flex-direction: column;
+}
+
+.popular-accomodation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+}
+
+.accomodation-image {
+    display: block;
+    align-items: center;
+    padding: 5px;
+    width: 370px;
+    height: 100px;
+    border-radius: 19px 19px 0 0;
+    object-fit: cover;
+}
+
+.accomodation-card {
+    margin: 10px;
+}
+
+
+/* most popular */
+
+.most-popular-grid {
+    grid-template-columns: 380px;
+}
+
+.most-popular {
+    height: 520px;
+}
+
+.most-popular-grid {
+    grid-template-rows: 130px 130px 130px;
+    margin-top: 20px;
+}
+
+/* activities */
+
+.activities-subtitles {
+    width:  350px;
+}
+
+.activities-large-image {
+    width: 380px;
+}
+
+.activities-medium-image {
+    width: 380px;
+}
+
+.activities-small-image {
+    width: 380px;
+}
+
+.activities-container {
+    display: grid;
+    justify-content: space-evenly;
+    align-items: baseline;
+    grid-template-columns: 400px;
+    grid-template-rows: repeat(6, 200px);
+    grid-column-gap: 3%;
+    grid-row-gap: 5px;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.activities-container-1-1-1 {
+    grid-column-start: 1;
+    grid-row-start: 1;
+}
+
+.activities-container-1-1-2 {
+    grid-column-start: 1;
+    grid-row-start: 2;
+}
+
+.activities-container-2-2-1 {
+    grid-column-start: 1;
+    grid-row-start: 3;
+}
+
+.activities-container-2-2-2 {
+    grid-column-start: 1;
+    grid-row-start: 4;
+}
+
+.activities-container-3-3-1 {
+    grid-column-start: 1;
+    grid-row-start: 5;
+}
+
+.activities-container-3-3-2 {
+    grid-column-start: 1;
+    grid-row-start: 6;
+}
+
+
+/* footer */

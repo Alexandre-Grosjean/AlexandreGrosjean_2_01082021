@@ -17,11 +17,15 @@ em {
     font-weight: 600;
 }
 
+br {
+    display: none;
+}
+
  /*header*/
 
  header {
     width: 98%;
-    max-width: 1440px;
+    max-width: 100%;
     margin: auto;
     color: #0065FC;
   }
@@ -49,19 +53,18 @@ em {
 #logo {
     grid-area: logo;
     display: flex;
-    justify-items: left;
+    justify-items: center;
     padding-left: 0px;
     padding-right: 0px;
 }
 
 .logo {
-    padding-left: 0px;
+    padding-left: 15%;
 }
 
 .navbar #navbar-link-accomodation {
     grid-area: accomodation;
     border-top: 3px #0065FC solid;
-    color: #0065FC;
 }
 
 .navbar #navbar-link-activities {
@@ -71,7 +74,6 @@ em {
 
 .navbar #navbar-link-activities:hover {
     border-top: 3px #0065FC solid;
-    color:#0065FC;
 }
 
 
