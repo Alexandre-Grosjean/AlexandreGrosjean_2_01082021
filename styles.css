@@ -17,6 +17,10 @@ em {
     font-weight: 600;
 }
 
+.invisible-title {
+    display: none;
+}
+
 br {
     display: none;
 }
@@ -658,6 +662,3 @@ td {
     width: 800px;
 }
 
-.invisible-title {
-    display: none;
-}
