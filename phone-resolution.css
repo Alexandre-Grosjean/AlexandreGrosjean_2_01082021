@@ -1,3 +1,8 @@
+body {
+    background-color: white;
+    display: unset;
+}
+
 /* header*/
 
 .navbar {
@@ -150,6 +155,8 @@ br {
 
 /* accomodation */
 
+
+
 .popular-marseille {
     display: flex;
     flex-direction: column;
@@ -229,6 +236,10 @@ br {
 
 
 /* activities */
+
+.activities {
+    margin-left: 20px;
+}
 
 .activities-subtitles {
     width:  350px;
