@@ -49,6 +49,7 @@
 .navbar #navbar-link-activities:hover {
     border-top: none;
     border-bottom: 3px #0065FC solid;
+    color: #0065FC;
     
 }
 
@@ -155,19 +156,21 @@ br {
 
 .popular-title {
     margin-top: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     margin-left: 40px;
-    padding-bottom: 30px;
     font-weight: bolder;
     font-size: 24px;
 }
 
 .popular-accomodation {
-    display: flex;
+    display: initial;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 40px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 .accomodation-image {
@@ -184,6 +187,9 @@ br {
     margin: 10px;
 }
 
+.more {
+    margin-top: 20px;
+}
 
 /* most popular */
 
@@ -199,6 +205,25 @@ br {
     grid-template-rows: 130px 130px 130px;
     margin-top: 20px;
 }
+
+.popular-star-1 {
+    display: flex;
+    margin-left: 0px;
+    margin-top: 55px;
+}
+
+.popular-star-2 {
+    display: flex;
+    margin-left: 0px;
+    margin-top: 25px;
+}
+
+.popular-star-3 {
+    display: flex;
+    margin-left: 0px;
+    margin-top: 55px;
+}  
+
 
 /* activities */
 

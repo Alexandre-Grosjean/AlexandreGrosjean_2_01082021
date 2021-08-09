@@ -494,11 +494,24 @@ h1 {
     color: black;
 }
 
-.popular-star {
+.popular-star-1 {
         display: flex;
         margin-left: 0px;
         margin-top: 25px;
 }
+
+.popular-star-2 {
+    display: flex;
+    margin-left: 0px;
+    margin-top: 25px;
+}
+
+.popular-star-3 {
+    display: flex;
+    margin-left: 0px;
+    margin-top: 25px;
+}  
+
 .most-popular-1 {
     display: flex;
     grid-row: 1;
