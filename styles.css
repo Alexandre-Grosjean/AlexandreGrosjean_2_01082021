@@ -18,10 +18,6 @@ em {
     font-weight: 600;
 }
 
-.invisible-title {
-    display: none;
-}
-
 br {
     display: none;
 }
@@ -133,7 +129,6 @@ h1 {
 
 .research {
     padding-left: 15px;
-    height: 50px;
     width: 220px;
     border: none;
     border-top: solid 1px #F2F2F2;
@@ -156,9 +151,16 @@ h1 {
     padding: 17px;
 }
 
+#logo-search::before
+ {
+    content: "Recherche";
+}
+
+/*
 .button-research-small {
     display: none;
 }
+*/
 
 /*section filter*/
 

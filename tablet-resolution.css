@@ -9,15 +9,12 @@ body {
 
 /* research */
 
-.button-research {
-    display: none;
-}
 
-.button-research-small {
-    display: unset;
-    border: none;
-    border-radius: 0 14px 14px 0;
-    background-color: #0065fc;
+#logo-search
+ {
+    content: url("src/font/petit-logo/svgs/solid/search.svg");
+    width: 22px;
+    height: 22px;
 }
 
 #search {
@@ -25,6 +22,10 @@ body {
     margin-left: 15px;
     width: 22px;
     height: 22px;
+}
+
+.button-research {
+    border-radius: 14px 14px 14px 14px;
 }
 /* filter */
 
