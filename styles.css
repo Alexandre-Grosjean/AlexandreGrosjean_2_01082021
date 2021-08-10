@@ -2,6 +2,7 @@ body {
     font-family: 'Raleway', sans-serif;
     margin: auto;
     background-color: #FFFFFF;
+    max-width: 1520px;
 }
 
 a{
@@ -78,6 +79,7 @@ br {
 
 .navbar #navbar-link-activities:hover {
     border-top: 3px #0065FC solid;
+    color: #0065FC;
 }
 
 
@@ -295,13 +297,15 @@ h1 {
 .popular {
     display: flex;
     justify-content: left;
+    max-width: inherit;
+    min-width: fit-content;
 }
 
 .popular-marseille {
     border: 1px #F2F2F2 solid;
     border-radius: 20px 20px 20px 20px;
     background-color: #F2F2F2;
-    width: 70%;
+    width: 940px;
     margin-left: 3%;
     margin-right: 3%;
 }
@@ -417,7 +421,9 @@ h1 {
 }
 
 .more {
-    margin: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 40px;
     font-weight: bolder;
     font-size: 18px;
 }
@@ -428,9 +434,9 @@ h1 {
     border: 1px #F2F2F2 solid;
     border-radius: 20px 20px 20px 20px;
     background-color: #F2F2F2;
-    width: 30%;
+    width: 440px;
     margin-left: 0%;
-    margin-right: 3%;
+    margin-right: 0%;
 }
 
 .title-chart {
@@ -600,8 +606,10 @@ h1 {
     grid-template-columns: 300px 300px 300px 300px;
     grid-template-rows: 200px 200px;
     grid-column-gap: 3%;
-    margin-left: 3%;
-    margin-right: 3%;
+    margin-left: 40px;
+    margin-right: 40px;
+    max-width: inherit;
+    min-width: fit-content;
 }
 
 
@@ -679,9 +687,9 @@ footer {
 }
 
 .footer-title {
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     font-weight: 700;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .footer-list {

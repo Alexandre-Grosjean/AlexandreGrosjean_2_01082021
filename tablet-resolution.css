@@ -45,21 +45,25 @@ body {
 .choice-1 {
     grid-column-start: 2;
     grid-row-start: 1;
+    width: 200px;
 }
 
 .choice-2 {
     grid-column-start: 3;
     grid-row-start: 1;
+    width: 170px;
 }
 
 .choice-3 {
     grid-column-start: 2;
     grid-row-start: 2;
+    width: 190px;
 }
 
 .choice-4 {
     grid-column-start: 3;
     grid-row-start: 2;
+    width: 250px;
 }
 
 .info {
@@ -90,7 +94,7 @@ body {
     grid-template-columns: 250px 250px;
     grid-template-rows: 200px 200px 200px;
     grid-row-gap: 2%;
-    grid-column-gap: 80px;
+    grid-column-gap: 8%;
 }
 
 .popular-marseille {
