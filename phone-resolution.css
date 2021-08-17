@@ -157,8 +157,7 @@ br {
 
 
 .popular-marseille {
-    display: flex;
-    flex-direction: column;
+    display: none;
 }
 
 .popular-title {
