@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reservia</title>
 
 <!-- stylesheet -->
@@ -25,7 +25,7 @@
             media="screen and (max-width: 1390px)"
             href="tablet-resolution.css">
     <link rel="stylesheet" 
-            media="screen and (max-width: 736px)"
+            media="screen and (max-width: 1000px)"
             href="phone-resolution.css"> 
 </head>
 
@@ -42,7 +42,7 @@
                 <a href="#marseille" class="header-link">Hébergements</a>
             </div>
             <div id="navbar-link-activities" class="navbar-link">
-                <a href="#activities" class="header-link">Activités</a>
+                <a href="#activities" class="header-link" id="activities">Activities</a>
             </div>
             <div id="sign-UP">
                 <a href="https://www.google.com/">S'inscrire</a>
@@ -68,11 +68,6 @@
                 <button class="button-research" id="button-research">
                     <div id="logo-search"></div>
                 </button>
-                <!-- 
-                <button class="button-research-small" id="button-research-small">
-         <img src="src/font/petit-logo/svgs/solid/search.svg" alt="search" id="search">
-                </button>
-                -->
             </div>
         </section>
 
@@ -86,7 +81,7 @@
             </div>
             <div class="choice-2">
                 <img src="src/font/petit-logo/svgs/solid/child.svg" alt="ico" id="family">
-                <p class="filter-choice">Familiale</p>
+                <p class="filter-choice">Familial</p>
             </div>
             <div class="choice-3">
                 <img src="src/font/petit-logo/svgs/solid/heart.svg" alt="ico" id="heart">

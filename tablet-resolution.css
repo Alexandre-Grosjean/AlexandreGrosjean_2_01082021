@@ -27,6 +27,7 @@ body {
 .button-research {
     border-radius: 14px 14px 14px 14px;
 }
+
 /* filter */
 
 .filter {
@@ -128,9 +129,9 @@ body {
     display: grid;
     justify-content:center ;
     align-items: center;
-    grid-template-columns: 320px;
-    grid-template-rows: 170px 170px 170px;
-    grid-row-gap: 10px;
+    grid-template-columns: 320px 320px 320px;
+    grid-template-rows: 170px;
+    grid-row-gap: 15px;
     grid-column-gap: 20px;
 }
 

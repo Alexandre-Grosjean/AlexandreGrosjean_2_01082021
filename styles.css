@@ -10,7 +10,7 @@ a{
 }
 
 a:visited {
-    color: inherit;
+    color: black;
 }
 
 em {
@@ -28,7 +28,7 @@ br {
     width: 98%;
     max-width: 100%;
     margin: auto;
-    color: #0065FC;
+    color: initial;
   }
 
 .navbar {
@@ -70,14 +70,19 @@ br {
 
 .navbar #navbar-link-activities {
     grid-area: activities;
-    color: black;
 }
 
 .navbar #navbar-link-activities:hover {
     border-top: 3px #0065FC solid;
-    color: #0065FC;
 }
 
+#activities {
+    color: black;
+}
+
+#activities:hover {
+    color: #0065FC;
+}
 
 #sign-UP {
     grid-area: sign-up;
@@ -156,11 +161,6 @@ h1 {
     content: "Recherche";
 }
 
-/*
-.button-research-small {
-    display: none;
-}
-*/
 
 /*section filter*/
 
