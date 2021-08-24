@@ -1,6 +1,6 @@
 body {
     background-color: white;
-    display: unset;
+    display: contents;
 }
 
 /* header*/
@@ -149,6 +149,11 @@ br {
 }
 
 /* accomodation */
+
+.popular {
+    max-width: unset;
+    min-width: unset;
+}
 
 .popular-title {
     margin-top: 20px;
