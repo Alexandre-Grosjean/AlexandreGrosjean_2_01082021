@@ -298,6 +298,10 @@ br {
 
 /* footer */
 
+footer {
+    padding-left: unset;
+}
+
 .footer {
     display: flex;
     flex-direction: column;
