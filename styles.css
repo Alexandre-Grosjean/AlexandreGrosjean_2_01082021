@@ -5,7 +5,7 @@ body {
     /* max-width: 1520px; */
     display: grid;
     grid-template-columns: 2fr 1520px 2fr;
-    grid-template-rows: 10% 70% 20%;
+    grid-template-rows: auto auto auto;
     grid-template-areas: "left center right"
                         "left1 center1 right1"
                         "left2 center2 right2";
