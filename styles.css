@@ -675,15 +675,10 @@ footer {
     border: 4px #F2F2F2 solid;
     background-color: #F2F2F2;
     height: auto;
-    grid-column-start: left2-start;
-    grid-row-start: left2-start;
-    grid-column-end: right2-end;
-    grid-row-end: right2-start;
-
-    display: grid;
-    grid-template-columns: 2fr 1520px 2fr;
-    grid-template-rows: auto;
-    grid-template-areas: "left center right";
+    grid-column-start: center2-start;
+    grid-row-start: center2-start;
+    grid-column-end: center2-end;
+    grid-row-end: center2-end;
 }
 
 .footer {
@@ -695,8 +690,6 @@ footer {
     margin-top: 10px;
     margin-bottom: 40px;
     margin-left: 4%;
-    
-    grid-column-start: center-start;
 
 }
 
