@@ -11,3 +11,6 @@ creation des liens CSS
 ajout des images
 
 verification de la creation du readme
+
+
+modification du read en cas d'avantage d'ajout
